@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-size: 20px;
+    
+}
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+ 
+}
+.title{
+    font-size: 30px;
+    word-spacing: 20px;
+}
+.rockimg {
+    height: 50px;
+}
+.paperimg 
+{
+    height: 50px;
+}
+.sccisimg
+{
+    height: 50px;
+} 
+.btons01{
+    height: 120px;
+    border: 2px solid #fff;
+    background-color: black;
+    width: 120px;
+    border-radius: 50%;
+    width: 100px;
+    cursor: pointer;
+}
+.btons02{
+    height: 120px;
+    border: 2px solid #fff ;
+    background-color: black;
+    width: 120px;
+    border-radius: 50%;
+    width: 100px;
+    cursor: pointer;
+}
+.btons03{
+    height:120px;
+    border: 2px solid #fff;
+    background-color: black;
+    width: 120px;
+    border-radius: 50%;
+    width: 100px;
+    cursor: pointer;
+}
+.js-result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.js-moves{
+ font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.js-score{
+ font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.gamescore{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.contents{
+    margin-top: 15px;
+}
+.resetbtn{
+    background-color: rgb(122, 44, 196);
+    color: #fff;
+    height: 50px;
+    width: 150px;
+    border: 1px solid  rgb(122, 44, 196);
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.subcontainer{
+background-color: black;
+}
+@media screen and (min-width:360px)and (max-width:760px){
+
+.subcontainer{
+        padding-top: 200px;
+}
+}
